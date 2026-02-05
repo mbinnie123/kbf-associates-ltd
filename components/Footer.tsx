@@ -11,6 +11,7 @@ export default function Footer() {
             width={120}
             height={32}
             className="h-8 w-auto opacity-90"
+            style={{ transform: "translate3d(0, 0, 0)" }}
           />
           <p className="text-sm text-zinc-600 dark:text-zinc-300">
             Consulting • Delivery • Improvement

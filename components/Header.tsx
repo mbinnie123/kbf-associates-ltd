@@ -13,6 +13,7 @@ export default function Header() {
             height={36}
             priority
             className="h-9 w-auto"
+            style={{ transform: "translate3d(0, 0, 0)" }}
           />
           <span className="sr-only">KBF Associates Ltd</span>
         </Link>

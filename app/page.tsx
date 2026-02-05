@@ -267,7 +267,7 @@ export default function Home() {
       {/* Logo watermark (slower parallax) */}
       <div
         className="absolute inset-0"
-        style={{ transform: `translateY(${parallaxY * 0.5}px)` }}
+        style={{ transform: `translateY(${parallaxY * 0.5}px) translate3d(0, 0, 0)` }}
       >
         <div className="absolute left-1/2 top-1/2 h-[28rem] w-[28rem] -translate-x-1/2 -translate-y-1/2 opacity-[0.2] dark:opacity-[0.08] sm:h-[44rem] sm:w-[44rem] md:h-[56rem] md:w-[56rem] lg:h-[68rem] lg:w-[68rem]">
           <Image src="/kbf-logo.svg" alt="" fill className="object-contain" />
@@ -323,6 +323,7 @@ export default function Home() {
   height={60}
   className="block h-auto w-[140px] sm:w-[160px] md:w-[180px]"
                       priority={i === 0}
+                      style={{ transform: "translate3d(0, 0, 0)" }}
 />
                   </div>
 
