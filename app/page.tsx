@@ -316,15 +316,13 @@ export default function Home() {
                     <h1 className="text-4xl font-semibold tracking-tight text-zinc-950 dark:text-white">
                       {p.title}
                     </h1>
-                    <img
+                    <Image
   src="/kbf-associates-ltd-logo.svg"
   alt={p.logoAlt}
   width={180}
   height={60}
   className="block h-auto w-[140px] sm:w-[160px] md:w-[180px]"
-  style={{ maxWidth: "100%", height: "auto" }}
-  loading={i === 0 ? "eager" : "lazy"}
-  decoding="async"
+                      priority={i === 0}
 />
                   </div>
 
