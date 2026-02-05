@@ -317,7 +317,7 @@ export default function Home() {
                       {p.title}
                     </h1>
                     <Image
-  src="/kbf-associates-ltd-logo.svg"
+  src="/KBF-Associates-Logo-Clear.svg"
   alt={p.logoAlt}
   width={180}
   height={60}
